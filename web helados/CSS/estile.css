@@ -1,0 +1,12 @@
+body{
+    background-color: #f3a4c9;
+}
+h2, h3, p{
+     text-align: center;
+}
+#lolo{
+    margin: 0 auto;
+    width: 20%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}

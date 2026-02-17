@@ -1,0 +1,14 @@
+body{
+    background-color: #f1a3d1;
+}
+h1,h2{
+    text-align: center;
+ }
+
+#lolo{
+  margin: 0 auto;
+    width: 20%;
+   display: block;
+    background-color: #eee88e; 
+
+}

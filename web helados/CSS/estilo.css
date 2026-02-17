@@ -1,0 +1,89 @@
+body{
+    background-color: #f3f389;
+}
+h1{
+        front-family: arial;
+        front-size: 45px;
+        color: red;
+        text-align: center;
+      
+}
+h2, h3, p{
+     text-align: center;
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+#pepe{
+        width: 240px;
+        height: 220px;
+        border-radius: 40%;
+        border: 5px solid #082B76;
+}
+button{
+    display: block;
+    margin: 0 auto;
+    background-color:#85738F;
+    padding: 15px 32px
+}
+#pepe:hover{
+    box-shadow: 0 0 2px 1px blue;
+    transform: scale(1.5);
+}
+button:hover{
+    background-color: #468C4B;
+}
+
+#tabla1 tr:hover {
+    background-color:pinck
+}
+.noticias {
+     border: 5px ridge #566DB9;
+     background-color: #0B8888;
+     padding: 2px;
+     display: flex;
+     flex-direction: column;
+}
+.noticias p {
+    font-family: Helvetica;
+    text-align: center;
+}
+#tablat {
+    margin: 0 auto;
+    width: 40%;
+}    
+#tabla1 {
+    margin: 0 auto;
+    width: 20%;
+    margin: 0 auto;
+    border-collapse: collapse;
+} 
+.galeria {
+  display: flex;  
+  flex-wrap: wrap;
+  gap: 700px;              /* separación entre imágenes */
+  justify-content: center;
+}
+
+.galeria img {
+  width: 30%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 20px;
+  max-width: 250px;       /* tamaño máximo */
+  min-width: 150px;       /* tamaño mínimo */
+  height: auto;
+}
+
+.galeria img:hover {
+  transform: scale(1.2);  /* se hace grande */
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.4); /* sombra */
+}  
+#lolo{
+  margin: 0 auto;
+    width: 20%;
+   display: block;
+    background-color: #ee8ee1; 
+
+}
